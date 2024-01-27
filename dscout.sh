@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Meet D.SCOUT!
-# (Deck Script Curating Other Ubiquitous Things)
+# (Deck Script Curating Other Useful Things)
 
 # For SteamOS on Steam Deck
 
@@ -16,15 +16,12 @@
 #####
 
 # Homebrew Package Manager
-# https://brew.sh/
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
     (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/deck/.bashrc
     eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
      brew install gcc
-
-echo "Yo, what's up!"
 
 echo "Homebrew Package Manger should be installing NOW!"
 echo " "
@@ -68,7 +65,8 @@ nautilus ~/Desktop
 
 clear
 
-
+echo " "
+echo "Yo, what's up!"
 echo " "
 echo "Homebrew Package Manger is installed NOW!"
 echo " "
