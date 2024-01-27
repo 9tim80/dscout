@@ -2,7 +2,7 @@
 
 Want to quickly get up and running with your new installation of SteamOS?
 
-Meet D.SCOUT! (Deck Script Curating Other Ubiquitous Things)
+Meet D.SCOUT! (Deck Script Curating Other Useful Things)
 
 This makeshift script was born from a minor annoyance, namely having to re-download and re-install multiple add-ons and enhancements every single time I reloaded SteamOS onto my Steam Deck...
 
