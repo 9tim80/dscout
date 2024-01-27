@@ -1,6 +1,6 @@
 # dscout
 
-Want to quickly get up and running with your new installation of SteamOS?
+Want to get up and running with your new installation of SteamOS, faster than a freakin' blur?
 
 Meet D.SCOUT! (Deck Script Curating Other Useful Things)
 
@@ -8,10 +8,10 @@ This makeshift script was born from a minor annoyance, namely having to re-downl
 
 ...which was often, because I'm a nerd and I like to tinker with new things. First world problems, am I right?
 
-At the moment, the script automates the following:
+At the moment, the script does the following:
 
 1. Installs the Homebrew Package Manager ( https://brew.sh ) and then performs the post-install follow-up steps.
-2. Downloads the .desktop file to install CryoByte33's Steam Deck Utilities ( https://github.com/CryoByte33/steam-deck-utilities ) to your Desktop folder. It even sets the executable bit for you!
+2. Downloads the .desktop file to install CryoByte33's Steam Deck Utilities ( https://github.com/CryoByte33/ ) to your Desktop folder. It even sets the executable bit for you!
 3. It then does the same for the Decky Loader installer ( https://decky.xyz )
 
 NOTE: Actually *installing* CryoUtilities and Decky must still be done manually, using the icons on your Desktop. I'm still a Bash noob and haven't figured out how to invoke them yet.
@@ -28,6 +28,8 @@ In Steam Deck's Desktop Mode (a.k.a. the KDE Environment):
 2. In the File Manager (Nautilus), Right-click the file, click "Properties," then "Permissions," and then check the box by "is executable."
 3. Hit OK, and now right-click in the folder where the dscout.sh file is, and select "Open Terminal Here." The KDE Konsole should appear.
 4. Type the following: ./dscout.sh
+
+
 
 Suggestions and/or hate mail can be directed to @9tim80 on Twitter.
 
