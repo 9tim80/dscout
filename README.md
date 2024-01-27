@@ -16,14 +16,19 @@ At the moment, the script automates the following:
 
 NOTE: Actually *installing* CryoUtilities and Decky must still be done manually, using the icons on your Desktop. I'm still a Bash noob and haven't figured out how to invoke them yet.
 
-I was considering adding EmuDeck, but not everyone uses the SD as an emulation machine, so I'm leaving that out at this time.
+I was considering adding EmuDeck, but that takes up a lot of space, and not everyone uses the SD as an emulation machine, so I'm leaving that out at this time.
+
 It's on the roadmap, right after giving the user a yes/no choice on installing each individual item...which I also couldn't yet figure out.
 
 USAGE INSTRUCTIONS
 
 In Steam Deck's Desktop Mode (a.k.a. the KDE Environment):
 
-Download dscout.sh to a convenient spot, such as your Downloads or Desktop folder.
-In the File Manager (Nautilus), Right-click the file, click "Properties," then "Permissions," and then check the box by "is executable."
-Hit OK, and now right-click in the folder where the dscout.sh file is, and select "Open Terminal Here." The KDE Konsole should appear.
-Type the following: ./dscout.sh
+1. Download dscout.sh to a convenient spot, such as your Downloads or Desktop folder.
+2. In the File Manager (Nautilus), Right-click the file, click "Properties," then "Permissions," and then check the box by "is executable."
+3. Hit OK, and now right-click in the folder where the dscout.sh file is, and select "Open Terminal Here." The KDE Konsole should appear.
+4. Type the following: ./dscout.sh
+
+Suggestions and/or hate mail can be directed to @9tim80 on Twitter.
+
+No, I'm never calling it X.
