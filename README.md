@@ -8,6 +8,8 @@ This makeshift script was born from a minor annoyance, namely having to re-downl
 
 ...which was often, because I'm a nerd and I like to tinker with new things. First world problems, am I right?
 
+NOTE: This *may* or *may not* work on SteamOS derivatives such as HoloISO, and SteamOS-alikes such as ChimeraOS and Nobara. If you try it out, please tell me your results!
+
 At the moment, the script does the following:
 
 1. Installs the Homebrew Package Manager ( https://brew.sh ) and then performs the post-install follow-up steps.
