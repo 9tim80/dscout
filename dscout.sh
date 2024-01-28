@@ -61,18 +61,31 @@ mv download ~/Desktop/decky-installer.desktop
 # make executable
 chmod +x ~/Desktop/decky-installer.desktop
 
-nautilus ~/Desktop
+#####
+# Non-Steam Launchers Installer
+
+# Download installer
+wget https://github.com/cchrkk/NSLOSD-DL/releases/download/DlLinkFix/NonSteamLaunchers.desktop
+
+# Rename
+mv download ~/Desktop/NonSteamLaunchers.desktop
+
+# make executable
+chmod +x ~/Desktop/NonSteamLaunchers.desktop
 
 clear
 
 echo " "
-echo "Yo, what's up!"
+echo " "
+echo "Yo, what's up! I am D.SCOUT here!"
 echo " "
 echo "Homebrew Package Manger is installed NOW!"
 echo " "
 echo "Decky Loader Installer is on your Desktop and ready to GO!"
 echo " "
 echo "Steam Deck Utilities Installer is on your Desktop and ready to GO!"
+echo " "
+echo "Non-Steam Launchers Installer is on your Desktop and ready to GO!"
 echo " "
 echo "Support your local Medic!"
 echo " "
