@@ -68,7 +68,7 @@ chmod +x ~/Desktop/decky-installer.desktop
 wget https://github.com/cchrkk/NSLOSD-DL/releases/download/DlLinkFix/NonSteamLaunchers.desktop
 
 # Rename
-mv download ~/Desktop/NonSteamLaunchers.desktop
+mv NonSteamLaunchers.desktop ~/Desktop/NonSteamLaunchers.desktop
 
 # make executable
 chmod +x ~/Desktop/NonSteamLaunchers.desktop
