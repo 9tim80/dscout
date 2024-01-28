@@ -15,8 +15,9 @@ At the moment, the script does the following:
 1. Installs the Homebrew Package Manager ( https://brew.sh ) and then performs the post-install follow-up steps.
 2. Downloads the .desktop file to install CryoByte33's Steam Deck Utilities ( https://github.com/CryoByte33/ ) to your Desktop folder. It even sets the executable bit for you!
 3. It then does the same for the Decky Loader installer ( https://decky.xyz )
+4. Finally it does the same for NonSteamLaunchers ( https://github.com/moraroy )
 
-NOTE: Actually *installing* CryoUtilities and Decky must still be done manually, using the icons on your Desktop. I'm still a Bash noob and haven't figured out how to invoke them yet.
+NOTE: Actually *installing* CryoUtilities, NSL and Decky must still be done manually, using the icons on your Desktop. I'm still a Bash noob and haven't figured out how to invoke them yet.
 
 I was considering adding EmuDeck, but that takes up a lot of space, and not everyone uses the SD as an emulation machine, so I'm leaving that out at this time.
 
