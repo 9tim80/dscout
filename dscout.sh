@@ -42,6 +42,10 @@ mv NonSteamLaunchers.desktop ~/Desktop/NonSteamLaunchers.desktop
 # make executable
 chmod +x ~/Desktop/NonSteamLaunchers.desktop
 
+# allow browsers to see Steam Deck controller for cloud gaming
+flatpak --user override --filesystem=/run/udev:ro com.google.Chrome
+flatpak --user override --filesystem=/run/udev:ro com.microsoft.Edge
+
 clear
 
 echo " "
@@ -59,7 +63,9 @@ echo " "
 echo "Non-Steam Launchers"
 echo "https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck"
 echo " "
-echo "Support your local Medic!"
+echo "By the way: The Deck's controls can now be used in the Chrome and Edge browsers for cloud gaming. Sorry, FireFox fam."
+echo " "
+echo "Remember: Support your local Medic!"
 echo " "
 echo "BONK!"
 end
