@@ -10,18 +10,15 @@ This makeshift script was born from a minor annoyance, namely having to re-downl
 
 NOTE: This *may* or *may not* work on SteamOS derivatives such as HoloISO, and SteamOS-alikes such as ChimeraOS and Nobara. If you try it out, please tell me your results!
 
-At the moment, the script does the following:
+At the moment, the script downloads the following installers to your Desktop folder (It even sets the executable bit for you!):
 
-1. Installs the Homebrew Package Manager ( https://brew.sh ) and then performs the post-install follow-up steps.
-2. Downloads the .desktop file to install CryoByte33's Steam Deck Utilities ( https://github.com/CryoByte33/ ) to your Desktop folder. It even sets the executable bit for you!
-3. It then does the same for the Decky Loader installer ( https://decky.xyz )
-4. Finally it does the same for NonSteamLaunchers ( https://github.com/moraroy )
+* CryoByte33's Steam Deck Utilities ( https://github.com/CryoByte33/ )
+* Decky Loader installer ( https://decky.xyz )
+* NonSteamLaunchers ( https://github.com/moraroy )
 
 NOTE: Actually *installing* CryoUtilities, NSL and Decky must still be done manually, using the icons on your Desktop. I'm still a Bash noob and haven't figured out how to invoke them yet.
 
-I was considering adding EmuDeck, but that takes up a lot of space, and not everyone uses the SD as an emulation machine, so I'm leaving that out at this time.
-
-It's on the roadmap, right after giving the user a yes/no choice on installing each individual item...which I also couldn't yet figure out.
+Finally, the script invokes the Flatpak commands which will enable the Chrome and Edge browsers to use the Steam Deck's controls for cloud gaming. Apologies to FireFox fans; This doesn't work for you yet.
 
 USAGE INSTRUCTIONS
 
@@ -32,8 +29,12 @@ In Steam Deck's Desktop Mode (a.k.a. the KDE Environment):
 3. Hit OK, and now right-click in the folder where the dscout.sh file is, and select "Open Terminal Here." The KDE Konsole should appear.
 4. Type the following: ./dscout.sh
 
-
-
 Suggestions and/or hate mail can be directed to @9tim80 on Twitter.
 
 No, I'm never calling it X.
+
+Future Features:
+1. User choice of which items to install individually
+2. Installation of EmuDeck
+3. Installation of Homebrew Package Manager
+4. A choice selection of "essential" Flatpak apps.
