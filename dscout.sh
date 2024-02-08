@@ -15,23 +15,6 @@
 
 #####
 
-# Homebrew Package Manager
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
-    (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/deck/.bashrc
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-     brew install gcc
-
-echo "Homebrew Package Manger should be installing NOW!"
-echo " "
-
-#####
-
-
-# CryoByte33's Steam Deck Utilities
-# https://github.com/CryoByte33/steam-deck-utilities
-
 # Download latest installer
 wget https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/InstallCryoUtilities.desktop
 
@@ -41,17 +24,6 @@ mv InstallCryoUtilities.desktop ~/Desktop/InstallCryoUtilities.desktop
 # Make executable
 chmod +x ~/Desktop/InstallCryoUtilities.desktop
 
-
-
-echo "CryoUtilities Installer is on your Desktop and ready to GO!"
-echo " "
-
-#####
-
-# Decky Loader
-# https://decky.xyz/
-
-
 # Download installer
 wget https://decky.xyz/download
 
@@ -60,9 +32,6 @@ mv download ~/Desktop/decky-installer.desktop
 
 # make executable
 chmod +x ~/Desktop/decky-installer.desktop
-
-#####
-# Non-Steam Launchers Installer
 
 # Download installer
 wget https://github.com/cchrkk/NSLOSD-DL/releases/download/DlLinkFix/NonSteamLaunchers.desktop
@@ -79,15 +48,18 @@ echo " "
 echo " "
 echo "Yo, what's up! I am D.SCOUT here!"
 echo " "
-echo "Homebrew Package Manger is installed NOW!"
+echo "The following installers are on your Desktop and ready when you are:"
 echo " "
-echo "Decky Loader Installer is on your Desktop and ready to GO!"
+echo "CryoUtilities"
+echo "https://github.com/CryoByte33/steam-deck-utilities"
 echo " "
-echo "Steam Deck Utilities Installer is on your Desktop and ready to GO!"
+echo "Decky Loader"
+echo "https://decky.xyz"
 echo " "
-echo "Non-Steam Launchers Installer is on your Desktop and ready to GO!"
+echo "Non-Steam Launchers"
+echo "https://github.com/moraroy/NonSteamLaunchers-On-Steam-Deck"
 echo " "
 echo "Support your local Medic!"
 echo " "
-echo " "
+echo "BONK!"
 end
